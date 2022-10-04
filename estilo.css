@@ -1,0 +1,46 @@
+/*RESEAT*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    margin: auto;
+}
+
+
+/*HEADER*/
+header {
+    background-color: rgb(255, 225, 105);
+    ;
+    height: 104px;
+}
+
+header a {
+    color: hsla(228, 28%, 20%, 1);
+    ;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
