@@ -19,6 +19,8 @@ header {
     background-color: rgb(255, 225, 105);
     ;
     height: 104px;
+
+    padding-top: 25px;
 }
 
 header a {
@@ -43,4 +45,13 @@ header a {
 .menu li a {
     display: block;
     padding: 10px;
+}
+
+
+section.section#home {
+    background-color: rgb(255, 225, 105);
+}
+
+div#container-grid {
+    grid-template-columns: 1fr 1fr;
 }
