@@ -10,19 +10,16 @@
     list-style: none;
 }
 
-html {
-    background-color: rgb(255, 225, 105);
+section.section#home {
+    background: linear-gradient(hsl(47, 90%, 76%), hsl(48, 83%, 63%));
 }
-
-body {
-    margin: auto;
-}
-
 
 /*HEADER*/
+
 header {
     height: 104px;
     padding-top: 25px;
+    background-color: hsl(47, 90%, 76%);
 }
 
 header a#logo {
@@ -30,9 +27,13 @@ header a#logo {
     ;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: max(20px, 1.5vw);
+
+    margin-left: 95px;
 
 }
+
+
 
 .header {
     display: flex;
@@ -41,17 +42,19 @@ header a#logo {
 
 .menu {
     display: flex;
+    margin-right: 95px;
 }
-
 
 .menu li a {
     display: block;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 45%);
 }
 
-
-
-
+ul li a:hover {
+    color: hsla(228, 28%, 20%, 1);
+}
 
 div.container-grid {
     display: grid;
@@ -60,17 +63,25 @@ div.container-grid {
 }
 
 div.text h1 {
-    max-width: 509px;
+    /*max-width: 509px;*/
     font-family: 'Montserrat', sans-serif;
-    font-size: 58px;
+    font-size: max(55px, 4.5vw);
     color: hsla(228, 28%, 20%, 1);
+    
+    margin-left: 95px;
+    margin-top: 171.5px;
 }
 
 div.text p {
     font-family: 'Montserrat', sans-serif;
     color: hsla(0, 0%, 45%, 1);
     margin-bottom: 35px;
-    max-width: 376px;
+    font-size: max(19px, 1.3vw);
+
+    margin-left: 95px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /*max-width: 376px;*/
 }
 
 div.text a {
@@ -79,13 +90,14 @@ div.text a {
 }
 
 a.button-first {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 26px;
-    padding-right: 20px;
+    /*top/right/bottom/left*/
+    padding: 10px 20px 10px 26px;
     border-radius: 37px;
     color: white;
     background-color: hsla(190, 100%, 38%, 1);
+
+    margin-left: 95px;
+    margin-right: 10px;
 }
 
 a.button-first:hover {
@@ -102,9 +114,15 @@ a.button-secund {
     border-radius: 37px;
     border: 1px solid hsla(190, 100%, 38%, 1);
     color: hsla(190, 100%, 38%, 1);
+
 }
 
 a.button-secund:hover {
     color: white;
     background-color: hsla(190, 100%, 38%, 1);
+}
+
+div.image {
+    max-width: 100%;
+
 }
