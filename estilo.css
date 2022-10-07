@@ -10,22 +10,25 @@
     list-style: none;
 }
 
-section.section#home {
+body {
     background: linear-gradient(hsl(47, 90%, 76%), hsl(48, 83%, 63%));
+
+    font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /*HEADER*/
 
 header {
     height: 104px;
     padding-top: 25px;
-    background-color: hsl(47, 90%, 76%);
+
 }
 
 header a#logo {
     color: hsla(228, 28%, 20%, 1);
     ;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: max(20px, 1.5vw);
 
@@ -48,7 +51,6 @@ header a#logo {
 .menu li a {
     display: block;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
     color: hsl(0, 0%, 45%);
 }
 
@@ -64,7 +66,6 @@ div.container-grid {
 
 div.text h1 {
     /*max-width: 509px;*/
-    font-family: 'Montserrat', sans-serif;
     font-size: max(55px, 4.5vw);
     color: hsla(228, 28%, 20%, 1);
     
@@ -73,7 +74,6 @@ div.text h1 {
 }
 
 div.text p {
-    font-family: 'Montserrat', sans-serif;
     color: hsla(0, 0%, 45%, 1);
     margin-bottom: 35px;
     font-size: max(19px, 1.3vw);
@@ -85,7 +85,6 @@ div.text p {
 }
 
 div.text a {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
@@ -122,7 +121,51 @@ a.button-secund:hover {
     background-color: hsla(190, 100%, 38%, 1);
 }
 
-div.image {
-    max-width: 100%;
+div.image img {
+    
+}
 
+/*SERVICES*/
+section.services {
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+
+div.section-container-text {
+
+}
+
+h2.section-title {
+    color: hsla(228, 28%, 20%, 1);
+    font-size: max(40px, 1vw);
+
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+
+div.cards-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.cards-services div {
+    box-shadow: 3px 10px 50px 5px rgb(202, 202, 202);
+
+    text-align: center;
+    width: 325px;
+    height: 142px;
+
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+
+div.cards-services div:nth-child(2) {
+    background-color: hsla(190, 100%, 38%, 1);
+    color: white;
+}
+
+div.content-cards {
+    text-align: center;
+    padding-top: 30px;
 }
