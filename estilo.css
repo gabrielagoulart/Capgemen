@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
 /*RESEAT*/
 * {
     padding: 0px;
@@ -8,6 +10,9 @@
     list-style: none;
 }
 
+html {
+    background-color: rgb(255, 225, 105);
+}
 
 body {
     margin: auto;
@@ -16,16 +21,16 @@ body {
 
 /*HEADER*/
 header {
-    background-color: rgb(255, 225, 105);
-    ;
     height: 104px;
-
     padding-top: 25px;
 }
 
-header a {
+header a#logo {
     color: hsla(228, 28%, 20%, 1);
     ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
 
 }
 
@@ -38,9 +43,6 @@ header a {
     display: flex;
 }
 
-.menu li {
-
-}
 
 .menu li a {
     display: block;
@@ -48,10 +50,61 @@ header a {
 }
 
 
-section.section#home {
-    background-color: rgb(255, 225, 105);
+
+
+
+div.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
-div#container-grid {
-    grid-template-columns: 1fr 1fr;
+div.text h1 {
+    max-width: 509px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    color: hsla(228, 28%, 20%, 1);
+}
+
+div.text p {
+    font-family: 'Montserrat', sans-serif;
+    color: hsla(0, 0%, 45%, 1);
+    margin-bottom: 35px;
+    max-width: 376px;
+}
+
+div.text a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+a.button-first {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    padding-right: 20px;
+    border-radius: 37px;
+    color: white;
+    background-color: hsla(190, 100%, 38%, 1);
+}
+
+a.button-first:hover {
+    background-color: rgb(255, 225, 105);
+    border: 1px solid hsla(190, 100%, 38%, 1);
+    color: hsla(190, 100%, 38%, 1);
+}
+
+a.button-secund {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    padding-right: 20px;
+    border-radius: 37px;
+    border: 1px solid hsla(190, 100%, 38%, 1);
+    color: hsla(190, 100%, 38%, 1);
+}
+
+a.button-secund:hover {
+    color: white;
+    background-color: hsla(190, 100%, 38%, 1);
 }
