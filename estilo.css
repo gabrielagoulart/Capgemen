@@ -121,18 +121,10 @@ a.button-secund:hover {
     background-color: hsla(190, 100%, 38%, 1);
 }
 
-div.image img {
-    
-}
-
 /*SERVICES*/
 section.services {
     background-color: hsl(0, 0%, 98%);
     text-align: center;
-}
-
-div.section-container-text {
-
 }
 
 h2.section-title {
@@ -145,11 +137,12 @@ h2.section-title {
 
 div.cards-services {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 div.cards-services div {
     box-shadow: 3px 10px 50px 5px rgb(202, 202, 202);
+    border-radius: 5px;
 
     text-align: center;
     width: 325px;
@@ -163,9 +156,18 @@ div.cards-services div {
 div.cards-services div:nth-child(2) {
     background-color: hsla(190, 100%, 38%, 1);
     color: white;
+
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 div.content-cards {
     text-align: center;
     padding-top: 30px;
 }
+
+/*PRACTICE*/
+section.section-practice {
+    background-color: hsl(0, 0%, 98%);
+}
+
