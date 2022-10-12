@@ -24,8 +24,15 @@ p {
 /*HEADER*/
 
 header {
-    height: 104px;
+    height: 90px;
+    width: 100%;   
     padding-top: 25px;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: hsl(47, 90%, 76%);
 
 }
 
@@ -39,12 +46,6 @@ header a#logo {
 
 }
 
-
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}
 
 .menu {
     display: flex;
@@ -122,6 +123,10 @@ a.button-secund {
 a.button-secund:hover {
     color: white;
     background-color: hsla(190, 100%, 38%, 1);
+}
+
+section.section#home {
+    padding-top: 105px;
 }
 
 /*SERVICES*/
