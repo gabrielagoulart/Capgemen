@@ -137,7 +137,7 @@ section.services {
 
 h2.section-title {
     color: hsla(228, 28%, 20%, 1);
-    font-size: max(40px, 1vw);
+    font-size: max(40px, 64px);
     text-align: center;
 
     padding-top: 100px;
@@ -164,9 +164,11 @@ div.cards-services div {
 
 div.cards-services div:nth-child(2) {
     background-color: hsla(190, 100%, 38%, 1);
-
     margin-left: 30px;
     margin-right: 30px;
+}
+div.cards-services div:nth-child(2) p{
+    color: white;
 }
 
 div.content-cards {
@@ -212,3 +214,5 @@ section.section-practice {
 .card-practice p {
     margin-bottom: 30px;
 }
+
+/**/
