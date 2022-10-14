@@ -11,14 +11,16 @@
 }
 
 body {
-    background: linear-gradient(hsl(47, 90%, 76%), hsl(48, 83%, 63%));
-
     font-family: 'Montserrat', sans-serif;
 }
+
+main {
+    background-color: hsl(0, 0%, 98%);
+}
+
 p {
    color: hsl(0, 0%, 45%);
 }
-
 
 
 /*HEADER*/
@@ -32,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
 
-    background-color: hsl(47, 90%, 76%);
+    background-color: #F7DE82;
 
 }
 
@@ -65,7 +67,6 @@ ul li a:hover {
 div.container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 div.text h1 {
@@ -127,11 +128,13 @@ a.button-secund:hover {
 
 section.section#home {
     padding-top: 105px;
+    background: linear-gradient(hsl(47, 90%, 76%), hsl(48, 83%, 63%));
 }
+
+
 
 /*SERVICES*/
 section.services {
-    background-color: hsl(0, 0%, 98%);
     text-align: center;
 }
 
@@ -192,7 +195,6 @@ section.section-practice {
     gap: 30.5px;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .card-practice {
@@ -215,4 +217,22 @@ section.section-practice {
     margin-bottom: 30px;
 }
 
-/**/
+/*BUSSINES*/
+
+section.section-bussines p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div.container-section-bussines {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.text-bussines {
+    max-width: 333px;
+}
+
+div.text-bussines p{
+    text-align: left;
+}
