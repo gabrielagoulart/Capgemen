@@ -153,7 +153,6 @@ div.cards-services {
 }
 
 div.cards-services div {
-    box-shadow: 3px 10px 50px 5px rgb(202, 202, 202);
     border-radius: 5px;
 
     text-align: center;
@@ -163,6 +162,10 @@ div.cards-services div {
     margin-top: 80px;
     margin-bottom: 100px;
 
+}
+
+div.cards-services div:hover {
+    box-shadow: 3px 10px 50px 5px rgb(202, 202, 202);
 }
 
 div.cards-services div:nth-child(2) {
@@ -240,6 +243,11 @@ div.text-bussines {
     max-width: 650px;
     padding-left: 120px;
 } 
+
+div.text-bussines h2 {
+    color: #252A41;
+    font-size: 40px;
+}
 
 div.text-bussines p{
     text-align: left;
