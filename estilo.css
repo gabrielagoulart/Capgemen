@@ -261,4 +261,22 @@ div.text-bussines p{
 
 
 
+section.section-touch {
+    padding-bottom: 100px;
+}
+
+div.container-touch {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ 
+div.card-touch {
+    background-color: red;
+    max-width: 328px;
+    max-height: 393px;
+}
+
+div.container-card-touch {
+    padding: 100px;
+}
 
