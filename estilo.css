@@ -269,14 +269,42 @@ div.container-touch {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+div.touch-text p {
+    padding-bottom: 80px;
+}
+
+div.img-touch {
+    padding-top: 50px;
+    padding-left: 128px;
+    padding-right: 127px;
+    padding-bottom: 15px;
+}
  
 div.card-touch {
-    background-color: red;
+    background-color: #FFFFFF;
     max-width: 328px;
     max-height: 393px;
+}
+
+div.card-touch:nth-child(2) {
+    background-color: #252B42;
+}
+
+div.card-touch a {
+    border: 1px solid #FFA62B;
+    color: #FFA62B;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div.card-touch a:nth-child(2) {
+    border: 1px solid white;
+    color: white;
 }
 
 div.container-card-touch {
     padding: 100px;
 }
+
 
