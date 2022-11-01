@@ -280,6 +280,11 @@ div.img-touch {
     padding-right: 127px;
     padding-bottom: 15px;
 }
+
+div.card-text-touch {
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
  
 div.card-touch {
     background-color: #FFFFFF;
@@ -292,6 +297,11 @@ div.card-touch:nth-child(2) {
 }
 
 div.card-touch a {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+span.color-card-touch {
     border: 1px solid #FFA62B;
     color: #FFA62B;
     border-radius: 5px;
