@@ -298,10 +298,6 @@ div.card-touch:nth-child(2) {
 
 div.card-touch a {
     border-radius: 5px;
-    position: relative;
-    top: 23px;
-    right: 20px;
-    
     padding: 10px; 
 }
 
