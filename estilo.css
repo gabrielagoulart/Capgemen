@@ -275,7 +275,7 @@ div.touch-text p {
 }
 
 div.img-touch {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-left: 128px;
     padding-right: 127px;
     padding-bottom: 15px;
@@ -298,7 +298,11 @@ div.card-touch:nth-child(2) {
 
 div.card-touch a {
     border-radius: 5px;
-    padding: 10px;
+    position: relative;
+    top: 23px;
+    right: 20px;
+    
+    padding: 10px; 
 }
 
 span.color-card-touch {
@@ -317,8 +321,13 @@ div.container-card-touch {
     padding: 100px;
 }
 
+div.button-touch {
+    padding-left: 110px;
+    padding-bottom: 80px;
+}
 
 
+/*
 @media (min-width: 768px) (max-width: 1023px) {
     
-}
+}*/
