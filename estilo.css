@@ -200,12 +200,17 @@ section.section-practice {
     justify-content: center;
 }
 
+.card-practice:hover {
+    box-shadow: 3px 10px 50px 5px rgb(202 202 202);
+}
+
 .card-practice {
     background-color: hsl(0, 0%, 95%);
     padding: 30px;
 
     max-width: 238px;
     max-height: 341px;
+
 }
 
 .card-practice img {
@@ -266,12 +271,17 @@ section.section-touch {
 }
 
 div.container-touch {
+    
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+    max-width: 985px; /*providencial*/
+    
 }
 
 div.touch-text p {
     padding-bottom: 80px;
+    text-align: center;
 }
 
 div.img-touch {
@@ -322,6 +332,9 @@ div.button-touch {
     padding-bottom: 80px;
 }
 
+div.button-touch h5 {
+    padding-bottom: 25px;
+}
 
 /*
 @media (min-width: 768px) (max-width: 1023px) {
