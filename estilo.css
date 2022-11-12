@@ -336,6 +336,17 @@ div.button-touch h5 {
     padding-bottom: 25px;
 }
 
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.img-footer {
+    display: flex;
+    gap: 20px;
+}
 /*
 @media (min-width: 768px) (max-width: 1023px) {
     
