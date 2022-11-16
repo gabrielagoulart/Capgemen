@@ -347,7 +347,9 @@ footer {
     display: flex;
     gap: 20px;
 }
-/*
-@media (min-width: 768px) (max-width: 1023px) {
-    
-}*/
+
+@media (max-width:600px) {
+   div {
+    background-color: blue;
+   }
+}
