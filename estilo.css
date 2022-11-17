@@ -25,6 +25,10 @@ p {
 
 /*HEADER*/
 
+header ul.menu-600px {
+    display: none;
+}
+
 header {
     height: 90px;
     width: 100%;   
@@ -349,6 +353,26 @@ footer {
 }
 
 @media (max-width:600px) {
+
+    header {
+        background-color: white;
+    }
+
+    ul.menu {
+        display: none;
+    }
+
+    header ul.menu-600px {
+        display: flex;
+    }
+
+    header ul.menu-600px img {
+        padding-right: 30px;
+    }
+
+
+
+
    div {
     background-color: blue;
    }
