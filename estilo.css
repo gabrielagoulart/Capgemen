@@ -359,7 +359,42 @@ footer {
     }
 
     ul.menu {
-        display: none;
+        /*display: none;*/
+
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        right: -90px;
+        background-color: white;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+
+        visibility: hidden;
+        overflow-y: hidden;
+
+    }
+    
+    #nav.active .menu {
+        height: calc(100vh - 80px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    
+    #btn-mobile {
+        padding: .5rem 1rem;
+        cursor: pointer;
+    }
+
+    #nav.active img { /*aqui eu adicionaria o 'x' para fechar o menu*/
+        background-color: blue;
+    }
+
+    .menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
 
     header ul.menu-600px {
@@ -369,6 +404,7 @@ footer {
     header ul.menu-600px img {
         padding-right: 30px;
     }
+
 
 
 

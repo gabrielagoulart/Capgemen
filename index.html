@@ -14,7 +14,7 @@
 
         <header class="header">
             <a id="logo" href="#">Capgemen</a>
-            <nav>
+            <nav id="nav">
                 <ul class="menu">
                     <li> <a href="#">Home</a> </li>
                     <li> <a href="#">Services</a> </li>
@@ -22,8 +22,8 @@
                     <li> <a href="#">Contact</a> </li>
                 </ul>
 
-                <ul class="menu-600px">
-                    <img src="assets/icn menu .icn-xs.png" alt="ícone do menu">
+                <ul class="menu-600px" role="menu">
+                    <img aria-label="Abrir menu" aria-expanded="false" id="btn-mobile" src="assets/icn menu .icn-xs.png" alt="ícone do menu">
                 </ul>
             </nav>
         </header>
@@ -299,4 +299,6 @@
         </main>
 
 </body>
+
+<script src="main.js"></script>
 </html>
