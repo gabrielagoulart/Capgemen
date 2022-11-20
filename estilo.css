@@ -154,6 +154,7 @@ h2.section-title {
 div.cards-services {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.cards-services div {
@@ -409,7 +410,5 @@ footer {
 
 
 
-   div {
-    background-color: blue;
-   }
+
 }
