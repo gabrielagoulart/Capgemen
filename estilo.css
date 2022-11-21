@@ -408,6 +408,20 @@ footer {
 
 
 
+    /*FOOTER*/
+    footer {
+        max-width: 414px;
+        max-height: 1567px;
+        
+        display: flex;
+        
+
+    }
+
+    footer img {
+        display: block;
+    }
+
 
 
 
