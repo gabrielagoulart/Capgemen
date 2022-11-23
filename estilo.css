@@ -344,7 +344,7 @@ div.button-touch h5 {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -412,15 +412,12 @@ footer {
     footer {
         max-width: 414px;
         max-height: 1567px;
-        
-        display: flex;
-        
-
-    }
-
-    footer img {
+    
         display: block;
     }
+
+
+
 
 
 
